@@ -1,8 +1,6 @@
 package REST_API.modules;
 
-import REST_API.pojos.Booking;
-import REST_API.pojos.BookingDates;
-import REST_API.pojos.BookingResponse;
+import REST_API.pojos.*;
 import com.github.javafaker.Faker;
 import com.google.gson.Gson;
 
@@ -13,7 +11,7 @@ public class PayloadManager
     public String createPayloadBookingAsString() {
         Booking booking = new Booking();
         Faker faker = new Faker();
-        booking.setFirstname("Pramod");
+        booking.setFirstname("Kavya");
         booking.setLastname(faker.name().lastName());
         booking.setTotalprice(faker.random().nextInt(1000));
         booking.setDepositpaid(true);
@@ -33,8 +31,8 @@ public class PayloadManager
     }
     public String fullUpdatePayloadAsString() {
         Booking booking = new Booking();
-        booking.setFirstname("James");
-        booking.setLastname("Dutta");
+        booking.setFirstname("Nissie");
+        booking.setLastname("Chandana");
         booking.setTotalprice(112);
         booking.setDepositpaid(true);
 
@@ -50,5 +48,31 @@ public class PayloadManager
         gson = new Gson();
         BookingResponse bookingRespons = gson.fromJson(responseString,BookingResponse.class);
         return bookingRespons;
+    }
+
+    public String setAuthPayload(){
+        Auth auth = new Auth();
+        auth.setUsername("admin");
+        auth.setPassword("password123");
+        gson = new Gson();
+        String jsonPayloadString = gson.toJson(auth);
+        System.out.println(" Payload set to "+ jsonPayloadString);
+        return jsonPayloadString;
+    }
+
+    public String getTokenFromJSON(String tokenResponse){
+        gson = new Gson();
+        // Response ( JSON) ->  Object TokenResponse
+        // Deserialization
+        TokenResponse tokenResponse1 = gson.fromJson(tokenResponse,TokenResponse.class);
+        return tokenResponse1.getToken();
+    }
+
+    public Booking getResponseFromJSON(String getResponse){
+        gson = new Gson();
+        // Response ( JSON) ->  Object TokenResponse
+        // Deserialization
+        Booking booking = gson.fromJson(getResponse,Booking.class);
+        return booking;
     }
 }

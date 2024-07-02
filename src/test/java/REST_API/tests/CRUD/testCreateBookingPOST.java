@@ -41,7 +41,7 @@ public class testCreateBookingPOST extends BaseTest
 
 
     @Test(groups = "smoke")
-    @Owner("Promode")
+    @Owner("Kavya")
     @Severity(SeverityLevel.NORMAL)
     @Description("TC#1 - Verify that the Booking can be Created")
     public void testCreateBookingNegative() {
