@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APIAutomationATB6x">
+        <classes>
+            <class name="REST_API.tests.DataDrivenTesting.vwoLoginAPI_TC"> </class>
+        </classes>
+    </test>
+</suite>
+

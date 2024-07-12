@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34afefb8-229f-4171-a4fd-21c636a88b87" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/Integration/TCintegrationFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resource/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/vwoLoginAPI_TC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/vwoLoginPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/ExtentReportDemo/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/ExtentReportDemo/TCintegrationFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/ExtentReportDemo/TestNG_Listner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Resource/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TCIntegrationFlow.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REST_API/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REST_API/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/REST_API/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/REST_API/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/REST_API/tests/CRUD/testCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/CRUD/testCreateBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/REST_API/tests/CRUD/testCreateBookingPOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/CRUD/testCreateBookingPOST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/REST_API/tests/Integration/TCintegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/Integration/TCintegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +49,81 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml.executor": "Run",
     "TestNG.TCintegration.executor": "Run",
     "TestNG.TCintegrationFlow.executor": "Run",
     "TestNG.testCreateBookingPOST.executor": "Run",
+    "TestNG.vwoLoginAPI_TC.executor": "Run",
+    "TestNG.vwoLoginAPI_TC.testVWOLogin.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kavya\Documents\REST Assured_API Testing\APIautomationframeWork\src\test\java\REST_API\tests\DataDrivenTesting" />
+      <recent name="C:\Users\kavya\Documents\REST Assured_API Testing\APIautomationframeWork\src\test\java\Resource" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kavya\Documents\REST Assured_API Testing\APIautomationframeWork\src\test\java\Resource" />
+      <recent name="C:\Users\kavya\Documents\REST Assured_API Testing\APIautomationframeWork\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml">
+    <configuration name="C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIautomationframeWork" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vwoLoginAPI_TC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIautomationframeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="REST_API.tests.DataDrivenTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="REST_API.tests.DataDrivenTesting" />
+      <option name="MAIN_CLASS_NAME" value="REST_API.tests.DataDrivenTesting.vwoLoginAPI_TC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vwoLoginAPI_TC.testVWOLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIautomationframeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="REST_API.tests.DataDrivenTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="REST_API.tests.DataDrivenTesting" />
+      <option name="MAIN_CLASS_NAME" value="REST_API.tests.DataDrivenTesting.vwoLoginAPI_TC" />
+      <option name="METHOD_NAME" value="testVWOLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml" />
+        <item itemvalue="TestNG.vwoLoginAPI_TC.testVWOLogin" />
+        <item itemvalue="TestNG.vwoLoginAPI_TC" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719853822619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1719897429966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719897429966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
