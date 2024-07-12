@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34afefb8-229f-4171-a4fd-21c636a88b87" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/vwoLoginAPI_TC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/DataDrivenTesting/vwoLoginPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/ExtentReportDemo/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/ExtentReportDemo/TCintegrationFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/REST_API/tests/ExtentReportDemo/TestNG_Listner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resource/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TCIntegrationFlow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="34afefb8-229f-4171-a4fd-21c636a88b87" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml.executor": "Run",
-    "TestNG.TCintegration.executor": "Run",
-    "TestNG.TCintegrationFlow.executor": "Run",
-    "TestNG.testCreateBookingPOST.executor": "Run",
-    "TestNG.vwoLoginAPI_TC.executor": "Run",
-    "TestNG.vwoLoginAPI_TC.testVWOLogin.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting/TestngDDT.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TCintegration.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TCintegrationFlow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testCreateBookingPOST.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.vwoLoginAPI_TC.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.vwoLoginAPI_TC.testVWOLogin.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kavya/Documents/REST Assured_API Testing/APIautomationframeWork/src/test/java/REST_API/tests/DataDrivenTesting&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kavya\Documents\REST Assured_API Testing\APIautomationframeWork\src\test\java\REST_API\tests\DataDrivenTesting" />
@@ -149,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719897429966</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1720798377047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720798377047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
